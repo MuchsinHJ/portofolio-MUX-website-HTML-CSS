@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?famzily=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <title>My Profil</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar_container">
+      <a href="/" class="navbar_logo">MUX</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu toggle" aria-expanded="false">
+        <span class="hamburger_line"></span>
+        <span class="hamburger_line"></span>
+        <span class="hamburger_line"></span>
+      </button>
+
+      <nav class="primary_nav" id="primary_nav" aria-label="Primary Navigation">
+        <ul class="navbar_menu">
+          <li class="navbar_item">
+            <a href="#" class="navbar_link">Home</a>
+          </li>
+          <li class="navbar_item">
+            <a href="#about" class="navbar_link">About</a>
+          </li>
+          <li class="navbar_item">
+            <a href="#services" class="navbar_link">Services</a>
+          </li>
+          <li class="navbar_item">
+            <a href="https://www.dicoding.com/users/muchsin_hidayat" class="navbar_link btn_link"
+              target="_blank">Dicoding Profile</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero_container">
+
+        <div class="hero_content_side">
+          <p class="hero_greeting">Hello, I'm</p>
+          <h1 class="hero_name">Muchsin Hidayat</h1>
+          <h2 class="hero_role">And I'm a <span class="hero_role_effect">Full Stack Developer</span></h2>
+          <p class="hero_bio">
+            I am a Full Stack Developer with a focus on scalable web applications and business-driven solutions.
+          </p>
+
+          <div class="hero_actions">
+            <a href="#about" class="btn btn_primary">About Me</a>
+          </div>
+        </div>
+
+        <div class="hero_image_side">
+          <img src="assets/images/profil.png" alt="Muchsin profile" class="hero_photo" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <aside class="about_aside">
+        <div class="profile_card">
+          <div class="profile_card_image-wrapper">
+            <img src="assets/images/profil.png" alt="Muchsin profile" class="profile_card_image" width="200"
+              height="200" />
+            <h3 class="profile_card_name">MUCHSIN</h3>
+          </div>
+
+          <div class="divider"><span>info</span></div>
+
+          <ul class="info_list">
+            <li>
+              <span class="meta_label">Profession</span>
+              <span class="meta_value">Full Stack Developer</span>
+            </li>
+            <li>
+              <span class="meta_label">Location</span>
+              <span class="meta_value">Cianjur, Indonesia</span>
+            </li>
+            <li>
+              <span class="meta_label">Email</span>
+              <a href="mailto:muchsin@example.com" class="meta_value">muchsinhj10@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <article class="about_article">
+        <h2 class="about_title section_title">ABOUT ME</h2>
+        <p>
+          I am a Fullstack Developer with a passion for building modern and scalable web applications. With over 2 years
+          of experience, I have worked on various projects ranging from startups to enterprise companies.
+        </p>
+        <p>
+          My specialization is using React.js for frontend and Go (Golang) for backend, creating applications that are
+          performant and maintainable. I am also experienced with various modern technologies such as Next.js,
+          TypeScript, PostgreSQL, and cloud services.
+        </p>
+        <p>
+          I believe in the principles of clean code, best practices, and continuous learning. Every day is an
+          opportunity to become a better developer.
+        </p>
+
+        <section class="about_techstack">
+          <h3 class="about_techstack_title">Tech Stack</h3>
+
+          <div class="techstack_grid">
+            <div class="techstack_group">
+              <h4>Frontend</h4>
+              <ul>
+                <li>React.js</li>
+                <li>TypeScript</li>
+                <li>Next.js</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
+
+            <div class="techstack_group">
+              <h4>Backend</h4>
+              <ul>
+                <li>Go (Golang)</li>
+                <li>Node.js</li>
+                <li>REST API</li>
+              </ul>
+            </div>
+
+            <div class="techstack_group">
+              <h4>Database</h4>
+              <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+
+            <div class="techstack_group">
+              <h4>DevOps & Cloud</h4>
+              <ul>
+                <li>AWS</li>
+              </ul>
+            </div>
+
+          </div>
+        </section>
+      </article>
+
+    </section>
+
+    <section id="services">
+      <h3 class="services_title section_title">MY SERVICES</h3>
+      <div class="services_content">
+        <div class="services_group">
+          <p class="card_index">01</p>
+          <h4>FULL STACK</h4>
+          <p>Building end-to-end web applications from UI/UX, interactive frontend, backend API, to database and
+            deployment.</p>
+        </div>
+        <div class="services_group">
+          <p class="card_index">02</p>
+          <h4>UI / UX Design</h4>
+          <p>Designing modern, intuitive, user experience oriented interfaces to enhance the comfort and effectiveness
+            of digital interactions.</p>
+        </div>
+        <div class="services_group">
+          <p class="card_index">03</p>
+          <h4>Digital Marketing</h4>
+          <p>Data driven digital marketing strategies to increase brand visibility, traffic, and conversions across
+            multiple online channels.</p>
+        </div>
+      </div>
+
+      <div class="services_stats">
+        <div class="stats_item">
+          <p class="stats_number">2<sup>+</sup></p>
+          <span class="stats_label">Years of Experience</span>
+        </div>
+        <div class="stats_item">
+          <p class="stats_number">10<sup>+</sup></p>
+          <span class="stats_label">Project Complete</span>
+        </div>
+        <div class="stats_item">
+          <p class="stats_number">5<sup>+</sup></p>
+          <span class="stats_label">My Courses</span>
+        </div>
+        <div class="stats_item">
+          <p class="stats_number">5<sup>+</sup></p>
+          <span class="stats_label">Language Program</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer_container">
+      <div class="footer_brand">
+        <h2 class="footer_title">MUX</h2>
+        <div class="teks_brand_wrapper">
+          <p class="teks_brand">Full Stack Developer focused on building scalable, efficient, and business driven web
+            applications.</p>
+        </div>
+        <ul class="footer_icons">
+          <li class="list_items"><a href="https://www.instagram.com/muchsin_hidayat/" aria-label="Profil Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none"
+                stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.5" r="1" fill="#000000" stroke="none" />
+              </svg>
+            </a></li>
+          <li class="list_items"><a href="https://www.linkedin.com/in/muchsin-hidayat-julianto-768a88311/"
+              aria-label="Profil LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="#000000">
+                <rect x="2" y="2" width="20" height="20" rx="3" ry="3" />
+                <rect x="6" y="10" width="2.5" height="8" fill="white" />
+                <circle cx="7.25" cy="7" r="1.5" fill="white" />
+                <path d="M11 10h2.5v1.5s.8-1.5 3-1.5c2 0 3 1.2 3 3.5V18h-2.5v-4c0-1.2-.4-2-1.5-2s-2 .8-2 2v4H11V10z"
+                  fill="white" />
+              </svg>
+            </a></li>
+        </ul>
+      </div>
+      <div class="footer_navbar">
+        <nav class="footer_links" aria-label="Quick links navigation>">
+          <h3 class="links_title">Quick links</h3>
+          <ul class="list_items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+          </ul>
+        </nav>
+        <nav class="footer_legal" aria-label="Legal navigation">
+          <h3 class="legal_title">Legal</h3>
+          <ul class="list_items">
+            <li><a href="#">Terms of services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <p>&copy; 2026 Muchsin Hidayat. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger menu
+    const hamburger = document.getElementById("hamburger");
+    const primaryNav = document.getElementById("primary_nav");
+
+    hamburger.addEventListener("click", function () {
+      const isOpen = primaryNav.classList.toggle("nav_open");
+      hamburger.classList.toggle("hamburger_open", isOpen);
+      hamburger.setAttribute("aria-expanded", isOpen);
+    });
+
+    // close nav
+    document.querySelectorAll(".navbar_link").forEach(link => {
+      link.addEventListener("click", () => {
+        primaryNav.classList.remove("nav_open");
+        hamburger.classList.remove("hamburger_open");
+        hamburger.setAttribute("aria-expanded", false);
+      });
+    });
+  </script>
+</body>
+
+</html>
