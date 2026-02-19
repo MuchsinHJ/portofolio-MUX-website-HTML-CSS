@@ -19,7 +19,7 @@ Website dapat diakses langsung melalui browser tanpa framework tambahan, menjadi
 | **Nama** | Muchsin Hidayat Julianto |
 | **Profesi** | Full Stack Developer |
 | **Lokasi** | Cianjur, Indonesia |
-| **Email** | muchsin@gmail.com |
+| **Email** | muchsinhj10@gmail.com |
 | **Dicoding** | [muchsin_hidayat](https://www.dicoding.com/users/muchsin_hidayat) |
 
 ---
@@ -97,7 +97,7 @@ Website ini adalah proyek **statis** — tidak memerlukan build tools atau serve
 ### Lokal (Langsung di Browser)
 ```bash
 # Clone repository
-git clone https://github.com/username/portfolio.git
+git clone https://github.com/MuchsinHJ/portofolio-website.git
 
 # Masuk ke direktori
 cd portfolio
