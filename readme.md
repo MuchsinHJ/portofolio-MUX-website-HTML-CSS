@@ -1,6 +1,6 @@
 # 🚀 Portfolio — Muchsin Hidayat Julianto
 
-> Website portofolio pribadi milik **Muchsin Hidayat Julianto**, seorang Full Stack Developer yang berbasis di Jakarta, Indonesia.
+> Website portofolio pribadi milik **Muchsin Hidayat Julianto**, seorang Full Stack Developer yang berbasis di Cianjur, Indonesia.
 
 ---
 
