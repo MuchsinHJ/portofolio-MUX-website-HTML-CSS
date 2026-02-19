@@ -97,7 +97,7 @@ Website ini adalah proyek **statis** — tidak memerlukan build tools atau serve
 ### Lokal (Langsung di Browser)
 ```bash
 # Clone repository
-git clone https://github.com/MuchsinHJ/portofolio-website.git
+git clone https://github.com/MuchsinHJ/portofolio-MUX-website-HTML-CSS.git
 
 # Masuk ke direktori
 cd portfolio
