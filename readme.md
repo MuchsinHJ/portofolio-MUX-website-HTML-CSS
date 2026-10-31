@@ -40,7 +40,17 @@ Website dapat diakses langsung melalui browser tanpa framework tambahan, menjadi
 
 ## 🛠️ Tech Stack
 
-### Frontend
+### Yang dikuasai (isi halaman)
+| Kategori | Teknologi |
+|---|---|
+| Bahasa Pemrograman | JavaScript, TypeScript, C++ |
+| Frontend | HTML5, CSS3, React.js, Tailwind CSS, Bootstrap |
+| Backend | Node.js, Express.js, RESTful API |
+| Database & ORM | PostgreSQL, Prisma ORM |
+| DevOps & Deployment | VPS, Vercel, Railway |
+| Tools | Git, GitHub, Postman, Figma |
+
+### Yang dipakai membangun website ini
 - HTML5 (Semantic)
 - CSS3 (Custom Properties, Flexbox, Clip-path, Animations)
 - JavaScript (Vanilla)
@@ -48,6 +58,8 @@ Website dapat diakses langsung melalui browser tanpa framework tambahan, menjadi
 ### Desain & Tipografi
 - **Cormorant Garamond** — Font serif elegan untuk aksen display
 - **Josefin Sans** — Font sans-serif bersih untuk body text
+- **DM Mono** — Label teknis dan chip tech stack
+- **Bebas Neue** — Judul kartu layanan dan angka statistik
 - Palet warna gelap berbasis `#0a0403` dengan aksen merah `#4f0111`
 
 ---
@@ -100,7 +112,7 @@ Website ini adalah proyek **statis** — tidak memerlukan build tools atau serve
 git clone https://github.com/MuchsinHJ/portofolio-MUX-website-HTML-CSS.git
 
 # Masuk ke direktori
-cd portfolio
+cd portofolio-MUX-website-HTML-CSS
 
 # Buka di browser
 open index.html
